@@ -31,6 +31,17 @@ import com.example.pertamuan5.R
 
 @Composable
 fun FormDataDiri(modifier: Modifier){
+    //variabel untuk mengingat nilai masukan dari keyboard
+    var textName by remember { mutableStateOf(value = "")}
+    var textAlamat by remember { mutableStateOf(value = "") }
+    var textJK by remember { mutableStateOf(value = "") }
+    val gender: List<String> = listOf("Laki-laki", "Perempuan")
+
+    //variabel untuk menyimpan data yang diperoleh dari komponen UI
+    var nama by remember { mutableStateOf(value = "") }
+    var alamat by remember { mutableStateOf(value = "") }
+    var jenis by remember { mutableStateOf(value = "") }
+
 
 }
 
