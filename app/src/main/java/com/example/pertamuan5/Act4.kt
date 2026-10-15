@@ -29,3 +29,18 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.pertamuan5.R
 
+@Composable
+fun FormDataDiri(modifier: Modifier){
+
+}
+
+@Composable
+fun OnlinedTextField(
+    value: Any,
+    modifier: Modifier,
+    singleLine: Boolean,
+    label: @Composable () -> Unit,
+    onValueChange: () -> Unit
+) {
+    TODO("Not yet implemented")
+}
