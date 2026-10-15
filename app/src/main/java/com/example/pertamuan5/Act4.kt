@@ -131,3 +131,13 @@ fun FormDataDiri(modifier: Modifier){
     }
 }
 
+@Composable
+fun OnlinedTextField(
+    value: Any,
+    modifier: Modifier,
+    singleLine: Boolean,
+    label: @Composable () -> Unit,
+    onValueChange: () -> Unit
+) {
+    TODO("Not yet implemented")
+}
